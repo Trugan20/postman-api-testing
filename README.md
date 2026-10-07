@@ -1,84 +1,117 @@
-# Postman API Testing
+# BÁO CÁO KIỂM THỬ API BẰNG POSTMAN
+## Thông tin 
+Họ và tên: Lữ Trung Anh
+MSSV: 23010339
 
-## 1. Introduction
 
-This project is a practice project for learning API testing with Postman.
+## 1. Giới thiệu
 
-## 2. Tools
+Đây là bài thực hành tìm hiểu và kiểm thử API bằng công cụ Postman.
+
+Mục đích của bài thực hành là làm quen với việc gửi các Request đến API và kiểm tra Response trả về.
+
+## 2. Công cụ sử dụng
 
 - Postman
 - GitHub
 - JSONPlaceholder API
 
-## 3. API Testing
+## 3. Thực hiện kiểm thử API
 
-### 3.1 GET Users
+### 3.1. Kiểm thử GET Users
 
-**Method:** GET
-
-**Endpoint:**
-
-https://jsonplaceholder.typicode.com/users
-
-**Purpose:** Get a list of users.
-
-![GET Result](GET.png)
-
----
-
-### 3.2 POST User
-
-**Method:** POST
+**Phương thức:** GET
 
 **Endpoint:**
 
 https://jsonplaceholder.typicode.com/users
 
-**Purpose:** Create a new user.
+**Mục đích:** Lấy danh sách người dùng từ API.
 
-![POST Result](POST.png)
+**Kết quả:**
+
+API trả về danh sách người dùng dưới dạng JSON.
+
+[GET Result](GET.png)
 
 ---
 
-### 3.3 PUT User
+### 3.2. Kiểm thử POST User
 
-**Method:** PUT
+**Phương thức:** POST
+
+**Endpoint:**
+
+https://jsonplaceholder.typicode.com/users
+
+**Mục đích:** Tạo một người dùng mới.
+
+**Kết quả:**
+
+Request được gửi thành công và API trả về thông tin người dùng đã gửi.
+
+[POST Result](POST.png)
+
+---
+
+### 3.3. Kiểm thử PUT User
+
+**Phương thức:** PUT
 
 **Endpoint:**
 
 https://jsonplaceholder.typicode.com/users/1
 
-**Purpose:** Update user information.
+**Mục đích:** Cập nhật thông tin của người dùng có ID là 1.
 
-![PUT Result](PUT.png)
+**Kết quả:**
+
+Request được gửi thành công và API trả về thông tin người dùng sau khi cập nhật.
+
+[PUT Result](PUT.png)
 
 ---
 
-### 3.4 DELETE User
+### 3.4. Kiểm thử DELETE User
 
-**Method:** DELETE
+**Phương thức:** DELETE
 
 **Endpoint:**
 
 https://jsonplaceholder.typicode.com/users/1
 
-**Purpose:** Delete a user.
+**Mục đích:** Xóa người dùng có ID là 1.
 
-![DELETE Result](DELETE.png)
+**Kết quả:**
+
+Request được gửi thành công và API trả về kết quả xử lý.
+
+[DELETE Result](DELETE.png)
 
 ---
 
-## 4. Test Results
+## 4. Kết quả kiểm thử
 
-The APIs were tested successfully using Postman.
+Các API đã được kiểm thử bằng công cụ Postman.
 
-The tests include:
+Các nội dung kiểm thử bao gồm:
 
-- Status code validation
-- Response data validation
-- User name validation
-- Email validation
+- Kiểm tra mã trạng thái HTTP (Status Code).
+- Kiểm tra dữ liệu Response trả về.
+- Kiểm tra thông tin người dùng.
+- Kiểm tra tên người dùng.
+- Kiểm tra email người dùng.
 
-## 5. Conclusion
+Kết quả kiểm thử cho thấy các Request GET, POST, PUT và DELETE đều được thực hiện thành công.
 
-Through this practice, I learned how to use Postman to send API requests and verify API responses.
+---
+
+## 5. Kết luận
+
+Thông qua bài thực hành, em đã hiểu được cách sử dụng Postman để gửi Request đến API và kiểm tra Response trả về.
+
+Em đã thực hiện và kiểm thử được các phương thức HTTP cơ bản gồm GET, POST, PUT và DELETE.
+
+Ngoài ra, em cũng hiểu được cách kiểm tra Status Code và dữ liệu trả về từ API.
+
+Qua bài thực hành, em có thêm kiến thức cơ bản về kiểm thử API và cách sử dụng Postman trong quá trình kiểm thử phần mềm.
