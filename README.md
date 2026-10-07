@@ -22,7 +22,7 @@ https://jsonplaceholder.typicode.com/users
 
 **Purpose:** Get a list of users.
 
-![GET Result](images/GET.png)
+![GET Result](GET.png)
 
 ---
 
@@ -36,7 +36,7 @@ https://jsonplaceholder.typicode.com/users
 
 **Purpose:** Create a new user.
 
-![POST Result](images/POST.png)
+![POST Result](POST.png)
 
 ---
 
@@ -50,7 +50,7 @@ https://jsonplaceholder.typicode.com/users/1
 
 **Purpose:** Update user information.
 
-![PUT Result](images/PUT.png)
+![PUT Result](PUT.png)
 
 ---
 
@@ -64,7 +64,7 @@ https://jsonplaceholder.typicode.com/users/1
 
 **Purpose:** Delete a user.
 
-![DELETE Result](images/DELETE.png)
+![DELETE Result](DELETE.png)
 
 ---
 
