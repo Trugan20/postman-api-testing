@@ -32,7 +32,7 @@ https://jsonplaceholder.typicode.com/users
 
 API trả về danh sách người dùng dưới dạng JSON.
 
-[GET Result](GET.png)
+![GET Result](GET.png)
 
 ---
 
@@ -50,7 +50,7 @@ https://jsonplaceholder.typicode.com/users
 
 Request được gửi thành công và API trả về thông tin người dùng đã gửi.
 
-[POST Result](POST.png)
+![POST Result](POST.png)
 
 ---
 
@@ -68,7 +68,7 @@ https://jsonplaceholder.typicode.com/users/1
 
 Request được gửi thành công và API trả về thông tin người dùng sau khi cập nhật.
 
-[PUT Result](PUT.png)
+![PUT Result](PUT.png)
 
 ---
 
@@ -86,7 +86,7 @@ https://jsonplaceholder.typicode.com/users/1
 
 Request được gửi thành công và API trả về kết quả xử lý.
 
-[DELETE Result](DELETE.png)
+![DELETE Result](DELETE.png)
 
 ---
 
